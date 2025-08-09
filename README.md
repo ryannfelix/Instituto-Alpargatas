@@ -1,4 +1,7 @@
-# Projeto ETL Instituto Alpargatas
+# Projeto ETL de Projeto de Extensão da Disicplina AD/CDN/UFPB
+Instituição participante: `Instituto Alpargatas`
+
+Esse documento é um modelo inicial de estruturação de projeto.
 
 ## Dependências
 - `pandas`

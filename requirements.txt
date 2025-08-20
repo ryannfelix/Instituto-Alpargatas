@@ -2,5 +2,5 @@ pandas
 numpy
 jupyter
 matplotlib
-openpyx1
+openpyxl
 xlrd

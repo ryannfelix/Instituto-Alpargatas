@@ -2,17 +2,15 @@ from os import path
 from utils import getdtb
 
 # Configuração Inicial de Diretório
-data_dir = '~/Data'
+data_dir = '~/database'
 
 # Leitura de Dados DTB
-file = path.join(data_dir, 
-                 "IBGE/DTB_2024/RELATORIO_DTB_BRASIL_2024_MUNICIPIOS.xls")
+file = path.join(data_dir, "RELATORIO_DTB_BRASIL_2024_MUNICIPIOS.xls")
 print("Lendo o arquivo", file)
 df_dtb = getdtb(file)
 
 # Leitura de Dados IA
-file = path.join(data_dir,
-                 "OUTROS/Projetos de Atuação - IA - 2020 a 2025.xlsx")
+file = path.join(data_dir,"Projetos de Atuação - IA - 2020 a 2025.xlsx")
 table = "2024"
 from pandas import read_excel
 data = read_excel(file, sheet_name=table, skiprows=5)
